@@ -6,7 +6,7 @@ Este projeto consiste na implementação de uma biblioteca para envio de e-mail.
 
 import br.com.cyber.email.CyberEmail;
 
-
+    public void main(String []args){
     
         #para configurar servido so chamar o methodo de configuraço e passa na parametro email smtp e  a porta smtp
         <strong>CyberEmail.configuarar_Servidor("smtp.gmail.com", "587", true); </strong>
@@ -20,6 +20,6 @@ import br.com.cyber.email.CyberEmail;
         
         #para sistema mandar sua messagem tem que chamar o funcao de enviar email  
         <strong>CyberEmail.enviar_Email();</strong>
-
+    }
     
 </p>
