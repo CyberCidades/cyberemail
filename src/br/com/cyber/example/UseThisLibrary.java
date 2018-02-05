@@ -21,8 +21,8 @@ public class UseThisLibrary {
  
     public static  void main(String []args){
         CyberEmail.configuarar_Servidor("smtp.gmail.com", "587", true);
-        CyberEmail.abrir_Session("sergiobombaye@gmail.com", "Toubads12");
-        CyberEmail.escopo_Email("serignekhassim@gmail.com", "Titulo_email", "Conteudo_email");
+        CyberEmail.abrir_Session("usuario@gmail.com", "senha email");
+        CyberEmail.escopo_Email("destinario@gmail.com", "Titulo_email", "Conteudo_email");
         CyberEmail.envia_Email();
     }
     
