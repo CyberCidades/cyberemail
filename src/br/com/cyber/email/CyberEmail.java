@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cyber_email;
+package br.com.cyber.email;
 
 
 import java.util.Properties;
@@ -20,7 +20,7 @@ import javax.mail.internet.MimeMessage;
  *
  * @author Serigne Khassim Mbaye
  */
-public class Cyber_Email extends Entidade_Servidor_Email{
+public class CyberEmail extends Entidade_Servidor_Email{
 
     static final Properties Up_Properties = new Properties();
     
@@ -62,17 +62,17 @@ public class Cyber_Email extends Entidade_Servidor_Email{
     *Enviar Email
      * @return 
     */
-    public static boolean Enviar_Email(){
-        Cyber_Email session_email = new Cyber_Email();
+    public static boolean enviar_Email(){
+        CyberEmail session_email = new CyberEmail();
         try {
            /*Email_session, senha_session   */ 
             Message message = new MimeMessage(session_email.mysesion());
             message.setFrom(new InternetAddress(getEmail_servidos())); //Remetente "contato@cybercidades.com.br"
             Address[] toUser = InternetAddress //Destinatário(s) 
-            .parse(getDestinario());
+            .parse(get_Destinario());
             message.setRecipients(Message.RecipientType.TO, toUser);
-            message.setSubject(getTitulo());/*Assunto*/ 
-            message.setText(getConteudo());/*Messagem*/ 
+            message.setSubject(get_Titulo());/*Assunto*/ 
+            message.setText(get_Conteudo());/*Messagem*/ 
             /**
              * Método para enviar a mensagem criada
              */
@@ -88,8 +88,8 @@ public class Cyber_Email extends Entidade_Servidor_Email{
      *Excução das tarefas
      * @param args
      */
-    public static void main(String[] args) {
+    private static void main(String[] args) {
         myProperties();
-        Enviar_Email();
+        enviar_Email();
     }
 }
