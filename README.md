@@ -5,7 +5,7 @@ Este projeto consiste na implementação de uma biblioteca para envio de e-mail.
  </p>
  <b>#exemple</b>
 
-import br.com.cyber.email.CyberEmail;
+import br.com.cyber.email.CyberEmail
 
    
     
