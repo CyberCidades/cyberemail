@@ -88,7 +88,7 @@ public class CyberEmail extends Entidade_Servidor_Email{
      *Excução das tarefas
      * @param args
      */
-    private static void main(String[] args) {
+    public static void envia_Email() {
         myProperties();
         enviar_Email();
     }
