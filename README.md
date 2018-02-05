@@ -1,8 +1,8 @@
 # cyberemail
 Este projeto consiste na implementação de uma biblioteca para envio de e-mail.
 
- #exemple
-import br.com.cyber.email.CyberEmail
+ #exemple<br>
+<b>import br.com.cyber.email.CyberEmail</b><br><br>
 #para configurar servido so chamar o methodo de configuraço e passa na parametro email smtp e  a porta smtp<br>
         <b>CyberEmail.configuarar_Servidor("smtp.gmail.com", "587", true); </b>
         
