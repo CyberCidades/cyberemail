@@ -8,8 +8,8 @@ import br.com.cyber.email.CyberEmail;
 <
     public void main(String []args){
     
-       <p> #para configurar servido so chamar o methodo de configuraço e passa na parametro email smtp e  a porta smtp
-        <strong>CyberEmail.configuarar_Servidor("smtp.gmail.com", "587", true); </strong></p>
+        #para configurar servido so chamar o methodo de configuraço e passa na parametro email smtp e  a porta smtp
+        <b>CyberEmail.configuarar_Servidor("smtp.gmail.com", "587", true); </b>
         
         #sempre pra tu conseguir mandar uma email tem que ter um (a) remetente  ali tu vai passar dados de remetente 
             o emial de voce e sua senha  que quer mandar email para outro pessoa  
