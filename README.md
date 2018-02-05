@@ -2,10 +2,11 @@
 Este projeto consiste na implementação de uma biblioteca para envio de e-mail.
 
 <p>
+ </p>
  <b>#exemple
 
 import br.com.cyber.email.CyberEmail;
-<
+
     public void main(String []args){
     
         #para configurar servido so chamar o methodo de configuraço e passa na parametro email smtp e  a porta smtp
@@ -22,4 +23,4 @@ import br.com.cyber.email.CyberEmail;
         <strong>CyberEmail.enviar_Email();</strong>
     }
     
-</p>
+
