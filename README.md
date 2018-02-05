@@ -3,7 +3,7 @@ Este projeto consiste na implementação de uma biblioteca para envio de e-mail.
 
 <p>
  </p>
- <b>#exemple
+ <b>#exemple</b>
 
 import br.com.cyber.email.CyberEmail;
 
